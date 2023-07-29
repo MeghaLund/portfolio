@@ -8,7 +8,7 @@
    			.class1 {
                       width: auto;
                       height: 80px;
-                      background-color: grey;
+                      background-color: #4C555B;
                       color: white;
                       display: flex;
                       align-items: center;
@@ -25,78 +25,31 @@
 			padding:5px;
 			
         }
-
+        .img{
+		      width:100%;
+			  height:53%;
+			  
+		     }
         .class1 a:hover {
                          color: red;
-						 border:solid;
-						 radius:5px;
                          }
-        .class2{
-		        padding-top:0;
-		        height:100%;
-				width:auto;
-				background-color:black;
-               }	
-        
-        #h1{ 
-             font-size:50px;
-			 margin-left:10%;
-			 font-family:arial;		
-		     color:red;
-		    }
-		#p1{
-		     margin-left:10%;
-             right: 10%;
-			 padding-top:10%;
-             <!--transform: translate(-50%, -50%);-->
-		     font-size:16px;
-		     color:white;
-		     font-family:arial;
-		   }
-		 #p2{
-		     margin-left:10%;
-             right: 10%;
-			 top:5%;
-            
-		     font-size:16px;
-		     color:white;
-		     font-family:arial;
-		   }
-		    #button{
-                         position: absolute;
-                         top: 65%;
-                         left: 50%;
-                         transform: translate(-470%, -25%);
-                         -ms-transform: translate(-50%, -50%);
-                          background-color: black;
-                          color: white;
-                          font-size: 16px;
-                          padding: 12px 24px;
-                          border: none;
-                          border-radius: 10px;
-						  cursor:pointer;
-		               }
+       
   </style>
  </head>
  <body>
+ 
   <div class="class1">
   <h1> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp CodeByMegha</h1>
-        <a href="#">  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Home</a> &nbsp;
-        <a href="#">About</a> &nbsp;
+        <a href="Home.html">  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Home</a> &nbsp;
+        <a href="About.html">About</a> &nbsp;
         <a href="#">Skills</a> &nbsp;
         <a href="#">Projects</a> &nbsp;
 		<a href="#">Contact</a> &nbsp;
   </div>
-  <div class="class2">
-   <p id="p1">Hi! I'm Megha Lund</p>
-   <h1 id="h1">Front-End Developer</h1>
-   <p id="p2">I'm a passionate developer dedicated to crafting user-friendly<br>
-   experiences. I am focused, detail-oriented, and committed to<br>
-   ensuring excellence in every project. Let's make something<br>
-   special together.</p>
-   <button type="button" id="button"  >Contact Me</button>
-   
-  </div>
+  <div>
+  <img src="https://media.publit.io/file/w_1920,h_864,c_fit,q_80/Blogweb/2s_blog_04_web-dev-maintain.jpg" class="img">
+ </div>
+ 
   
  </body>
 </html>
